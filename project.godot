@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="DEMO2"
+config/name="Oscar_UPEN"
 run/main_scene="res://Escena.tscn"
 config/icon="res://icon.png"
 
