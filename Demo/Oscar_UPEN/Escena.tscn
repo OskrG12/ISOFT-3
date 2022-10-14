@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Baldoza2.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Jugador1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Baldoza.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Zona Morir.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Knight.png" type="Texture" id=5]
+
+[node name="ESCENA1" type="Node2D"]
+
+[node name="StaticBody2D8" parent="." instance=ExtResource( 3 )]
+position = Vector2( 992, 256 )
+
+[node name="StaticBody2D2" parent="." instance=ExtResource( 3 )]
+position = Vector2( 32, 544 )
+
+[node name="Jugador1" parent="." instance=ExtResource( 2 )]
+position = Vector2( 32, 472 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 64, 448 )
+
+[node name="StaticBody2D3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 384 )
+
+[node name="StaticBody2D4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1281, 529 )
+
+[node name="StaticBody2D5" parent="." instance=ExtResource( 3 )]
+position = Vector2( 1749, 466 )
+
+[node name="StaticBody2D6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 1867, 308 )
+
+[node name="StaticBody2D7" parent="." instance=ExtResource( 3 )]
+position = Vector2( 800, 360 )
+
+[node name="Zona Morir" parent="." instance=ExtResource( 4 )]
+position = Vector2( 82, 708 )
+
+[node name="Knight" type="Sprite" parent="."]
+position = Vector2( 169.5, 423.5 )
+scale = Vector2( 1.46875, 1.34375 )
+texture = ExtResource( 5 )

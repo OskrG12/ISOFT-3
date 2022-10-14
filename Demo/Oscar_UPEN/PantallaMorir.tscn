@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://PantallaMorir.gd" type="Script" id=1]
+
+[node name="PantallaMorir" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="TextEdit" type="TextEdit" parent="."]
+margin_top = 16.0
+margin_right = 448.0
+margin_bottom = 328.0
+text = "Has Muerto"
+
+[node name="Salir" type="Button" parent="TextEdit"]
+margin_left = 256.0
+margin_top = 256.0
+margin_right = 352.0
+margin_bottom = 288.0
+text = "Salir"
+
+[node name="Button" type="Button" parent="TextEdit"]
+margin_left = 96.0
+margin_top = 256.0
+margin_right = 192.0
+margin_bottom = 288.0
+text = "Reiniciar"
