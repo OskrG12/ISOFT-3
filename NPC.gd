@@ -28,3 +28,11 @@ func enter(body):
 func out(body):
 	if body.name == "Jugador":
 		active = false
+		
+func dialogic_signal(argument):
+	if argument == '_nivel2':
+		get_tree().change_scene("res://nivel2.tscn")
+		get_tree().paused = false
+	if argument == '_velocidad':
+		Jugador.speed += 200
+	pass

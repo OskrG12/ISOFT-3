@@ -1,0 +1,115 @@
+{
+	"events": [
+		{
+			"character": "character-1666275909.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hola"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666275977.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1666275977.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1666275977.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hola"
+		},
+		{
+			"character": "character-1666275909.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me pareces muy atractiva"
+		},
+		{
+			"character": "character-1666275977.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gracias, pero tengo novio"
+		},
+		{
+			"character": "character-1666275909.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nooo T_T"
+		},
+		{
+			"choice": "Velocidad",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"emit_signal": "_velocidad",
+			"event_id": "dialogic_040"
+		},
+		{
+			"emit_signal": "",
+			"event_id": "dialogic_040"
+		},
+		{
+			"character": "character-1666275977.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Adios"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "nivel2.tscn",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://nivel2.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666275712.json",
+		"name": "time1"
+	}
+}

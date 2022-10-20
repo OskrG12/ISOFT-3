@@ -1,0 +1,61 @@
+{
+	"events": [
+		{
+			"character": "character-1666275977.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Cuanto es 2+2?"
+		},
+		{
+			"choice": "2",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1666275977.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "correcto"
+		},
+		{
+			"choice": "22",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Incorrecto"
+		},
+		{
+			"character": "character-1666275977.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tienes [puntos] puntos."
+		},
+		{
+			"change_scene": "res://nivel2.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1666276165.json",
+		"name": "time2"
+	}
+}
